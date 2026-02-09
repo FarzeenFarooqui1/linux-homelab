@@ -1,0 +1,27 @@
+
+
+# Docker & System logs
+*.log
+logs/
+**/logs/
+
+# AdGuard & Databases (Keep the config, ignore the data)
+adguard/data/
+adguard/work/
+nginx/data/
+nginx/letsencrypt/
+
+# Portainer data
+portainer/data/
+
+# OS/IDEs
+.DS_Store
+.vscode/
+.idea/
+
+# Secret files
+.env
+# Nginx Proxy Manager data
+nginx/
+nginx-proxy/
+mysql/

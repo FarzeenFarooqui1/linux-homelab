@@ -1,0 +1,26 @@
+- Core Infrastructure:
+    - Portainer:
+        icon: portainer.png
+        href: http://100.74.166.125:9000
+        description: Container Management
+    - AdGuard Home:
+        icon: adguard-home.png
+        href: http://100.74.166.125:3001
+        description: Network Security
+    - Nginx Proxy Manager:
+        icon: nginx-proxy-manager.png
+        href: http://100.74.166.125:81
+        description: Reverse Proxy
+
+- Monitoring & Health:
+    - Netdata:
+        icon: netdata.png
+        href: http://100.74.166.125:19999
+        description: Server Health
+    - Uptime Kuma:
+        icon: uptime-kuma.png
+        href: http://100.74.166.125:3002
+        description: Service Availability
+        widget:
+          type: uptimekuma
+          url: http://100.74.166.125:3002
